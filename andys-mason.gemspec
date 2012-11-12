@@ -2,12 +2,12 @@ $:.unshift File.expand_path("../lib", __FILE__)
 require "mason/version"
 
 Gem::Specification.new do |gem|
-  gem.name     = "mason"
-  gem.version  = Mason::VERSION
+  gem.name     = "andys-mason"
+  gem.version  = "#{Mason::VERSION}.1"
 
   gem.author   = "David Dollar"
   gem.email    = "ddollar@gmail.com"
-  gem.homepage = "http://github.com/ddollar/mason"
+  gem.homepage = "http://github.com/andys/mason"
   gem.summary  = "Build things"
 
   gem.description = gem.summary
@@ -17,5 +17,6 @@ Gem::Specification.new do |gem|
   #gem.files << "man/mason.1"
 
   gem.add_dependency 'thor'
+  gem.add_dependency 'foreman'
 
 end
