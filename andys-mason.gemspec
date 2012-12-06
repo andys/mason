@@ -3,7 +3,7 @@ require "mason/version"
 
 Gem::Specification.new do |gem|
   gem.name     = "andys-mason"
-  gem.version  = "#{Mason::VERSION}.1"
+  gem.version  = "#{Mason::VERSION}.3"
 
   gem.author   = "David Dollar"
   gem.email    = "ddollar@gmail.com"
